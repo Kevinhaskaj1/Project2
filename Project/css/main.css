@@ -1,0 +1,198 @@
+/* DEVELOPER Kevin Haskaj, IS117-003, Fall 2024 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #3C4C58;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    height: 30px;
+}
+
+
+.navbar-nav {
+    font-size: 20px;
+    background-color: #3C4C58;
+
+}
+
+/* NAV BAR LINKS BACKGROUND COLOR */
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+/* NAV BAR BACKGROUND COLOR */
+.bg-dark {
+    background-color: #3C4C58 !important;
+}
+
+/* Center Text Header */
+.col-sm-4 {
+    justify-content: center;
+    width: 100%;
+}
+
+/* Homepage */
+
+#home-slogan {
+    margin-top: 40px;
+}
+
+
+/* HOME PAGE BOOTSTRAP CARDS */
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 250px;
+}
+
+.card {
+    flex: 0 1 30%;
+    margin: 10px;
+    height: 400px;
+}
+
+
+.col-lg-4 {
+    padding: 0;
+}
+
+
+#card-one {
+    background-color: #20b2aa;
+    margin-left: auto;
+}
+
+#card-two {
+    background-color: #40e0d0;
+
+}
+
+#card-three {
+    background-color: #20b2aa;
+    margin-right: auto;
+}
+
+/* Interior Page Outline */
+
+/* BOOTSTRAP CARD */
+
+.card-container-beginner {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#card-beginner {
+    background-color: #40e0d0;
+    width: 300px;
+    margin-right: 0;
+
+}
+
+.btn-primary {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Beginner Pictures */
+.push-up-image {
+    position: relative;
+    top: -400px;
+    left: 50px;
+}
+
+.sprinting-image {
+    position: relative;
+    top: -400px;
+    left: 150px;
+}
+
+/* Intermediate Pictures */
+.squat-2-image{
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+.inter-2 {
+    position: relative;
+    top: -400px;
+    left: 150px;
+}
+
+/* Advanced Pictures */
+.adv-1 {
+    position: relative;
+    top: -400px;
+    left: 50px;
+}
+
+.adv-2 {
+    position: relative;
+    top: -400px;
+    left: 100px;
+}
+
+/* About Us Page */
+#about-us-header {
+    margin-bottom: 50px;
+}
+
+#about-us {
+    margin-top: 20px;
+}
+
+#mission {
+    margin-top: 20px;
+}
+
+#our-impact {
+    margin-top: 20px;
+}
+
+.list-group li {
+    margin-bottom: 10px;
+}
+
+.aboutus-container {
+    background-color: #20b2aa;
+}
+
+.mission-container {
+    background-color: #40e0d0;
+}
+
+.our-impact-container {
+    background-color: #20b2aa;
+}
+
+/* Contact / Purchase outline */
+
+.contact-container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #20b2aa;
+}
+
+.row-contact {
+    max-width: 800px;
+}
+
+#contact-header {
+    display: flex;
+    justify-content: center;
+}

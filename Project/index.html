@@ -1,0 +1,119 @@
+<!-- DEVELOPER Kevin Haskaj, IS117-003, Fall 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CrunchLab Home</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="Crunch Lab"></a>
+                <a class="logo-button" type="button" href="index.html">
+                    <img src="Images/image%2520(6).jpg" alt="Logo" width="100" length="100">
+                </a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Workout Plans
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="Beginner.html">Beginner</a>
+                                <a class="dropdown-item" href="Intermediate.html">Intermediate</a>
+                                <a class="dropdown-item" href="Advanced.html">Advanced</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="col-sm-4  text-center">
+        <h2>CrunchLab</h2>
+        <h3 id="home-slogan">Unlock Your Best Self and Start Your Fitness Journey Today!</h3>
+    </div>
+</div>
+    <!-- BOOTSTRAP CARDS -->
+
+<div class="card-container">
+    <div class="row">
+        <!-- BOOTSTRAP CARD ONE -->
+        <div class="col-lg-4">
+            <div class="card" id="card-one">
+                <div class="card-body">
+                    <h5 class="card-title">Boost Your Mood</h5>
+                    <p class="card-text">
+                        Exercise isn't just about getting fit—it's a great way to improve your mental health. Regular physical activity releases endorphins that help reduce stress and anxiety, leaving you feeling happier and more energized.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- BOOTSTRAP CARD TWO -->
+        <div class="col-lg-4">
+            <div class="card" id="card-two">
+                <div class="card-body">
+                    <h5 class="card-title">Improve Physical Health</h5>
+                    <p class="card-text">
+                        Working out can lead to a healthier heart, stronger muscles, and better endurance. Whether it's strength training or cardio, regular exercise helps prevent a range of health conditions and keeps your body functioning at its best.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- BOOTSTRAP CARD THREE -->
+        <div class="col-lg-4">
+            <div class="card" id="card-three">
+                <div class="card-body">
+                    <h5 class="card-title">Increase Your Energy Levels</h5>
+                    <p class="card-text">
+                        Feeling tired all the time? Exercise can help. Consistent workouts improve circulation, strengthen the heart, and increase oxygen flow, which can boost your energy levels and help you stay active throughout the day.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div>
+    <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Kevin Haskaj, 2024 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
